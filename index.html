@@ -4,121 +4,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
 </head>
 <body>
-   <h1>Main Heading</h1> 
-   <h2>Heading Two</h2>
-   <h3>Heading Three</h3>
+    <div class="container">
+    <div class="box-1">
+        <h1>Main Heading</h1> 
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
 
-   <p><a href="https://www.google.com/search?q=meaning+of+lead+paragraph&oq=meaning+of+a+lead+paragra&gs_lcrp=EgZjaHJvbWUqCAgBEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIKCAMQABiGAxiKBTIKCAQQABiGAxiKBTIKCAUQABiGAxiKBdIBCTE2OTMwajFqN6gCALACAA&sourceid=chrome&ie=UTF-8" target="_blank">A lead paragraph</a> (sometimes shortened to lead; in the United States sometimes spelled lede) is the opening paragraph of an article, book chapter, or other written work that summarizes its main ideas.</p>
+        <p><a href="https://www.google.com/search?q=meaning+of+lead+paragraph&oq=meaning+of+a+lead+paragra&gs_lcrp=EgZjaHJvbWUqCAgBEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIKCAMQABiGAxiKBTIKCAQQABiGAxiKBTIKCAUQABiGAxiKBdIBCTE2OTMwajFqN6gCALACAA&sourceid=chrome&ie=UTF-8" target="_blank">A lead paragraph</a> (sometimes shortened to lead; in the United States sometimes spelled lede) is the opening paragraph of an article, book chapter, or other written work that summarizes its main ideas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus cumque alias odit laboriosam facere aliquam laborum quod saepe deserunt, voluptatum non aperiam voluptas dolorum enim ratione animi veniam sunt explicabo?</p>
 
-   <!--Image-->
-   <img src="puppy.jpg" alt="A puppy Image" width="200">
-
-
-
-   <ul>
-    <li>List Item 1</li>
-    <li>List Item 2</li>
-    <li>List Item 3</li>
-   </ul>
-
-   <ol>
-    <li>List Item I</li>
-    <li>List Item II</li>
-    <li>List Item III</li>
-   </ol>
-
-   <!--Tables-->
-   <table>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Sex</th>
-            <th>Occupation</th>
-        </tr>
-        <tr>
-            <td>Benjamin</td>
-            <td>22</td>
-            <td>Male</td>
-            <td>Pharmacist</td>
-        </tr>
-    <tr>
-        <td>Alice</td>
-        <td>25</td>
-        <td>Female</td>
-        <td>Banker</td>
-    </tr>
-    </thead>
-   </table>
-
-   <br>
-
-   <!--Forms -->
-   <form action="process.php" method="POST">
-    <div>
-        <label for="">First Name</label>
-        <input type="text" name="first-name" placeholder="Enter First Name">
+        <!--Image-->
+        <img src="puppy.jpg" alt="A puppy Image" width="200">
     </div>
-   <br>
-    <div>
-        <label for="">Last Name</label>
-        <input type="text" name="last-name" placeholder="Enter Last Name">
-    </div>
-    <br>
-    <div>
-        <label for="">Email</label>
-        <input type="email" name="email" placeholder="Enter Email">
-    </div>
-    <br>
-    <div>
-        <label for="">Password</label>
-        <input type="password" name="password" placeholder="Enter Password">
-    </div>
-    <br>
-    <div>
-        <label for="">Message</label>
-        <textarea name="message" id="" cols="30" rows="10" placeholder="Type message here"></textarea>
-    </div>
-    <br>
-    <div>
-    <label for="">Gender</label>
-    <select name="gender" id="">
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-        <option value="mumu">Mumu</option>
-    </select>
     </div>
 
-   <!--Radio-->
-   <br>
-   <p>Are you satisfied wiith the website?</p>
-   <div>
-   <input type="radio" name="radio" value="Radio">Yes
-   <br>
-   <input type="radio" name="radio" value="Radio">No
-   </div>
+    <div class="unorganized-list">
+        <ul>
+            <h4>Unorganized List Item </h4>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+        </ul>
+    </div>
+    <div class="organized-list">
+        <ol>
+            <h4>Organized List Item</h4>
+            <li>List Item I</li>
+            <li>List Item II</li>
+            <li>List Item III</li>
+        </ol>
+    </div>
+        <!--Tables-->
+        <div class="table">
+        <h4>Table</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Sex</th>
+                    <th>Occupation</th>
+                </tr>
+                <tr>
+                    <td>Benjamin</td>
+                    <td>22</td>
+                    <td>Male</td>
+                    <td>Pharmacist</td>
+                </tr>
+            <tr>
+                <td>Alice</td>
+                <td>25</td>
+                <td>Female</td>
+                <td>Banker</td>
+            </tr>
+            </thead>
+        </table>
+        </div>
 
-   <!--Checkboxes-->
-   <br>
-   <p>Skills</p>
-   <input type="checkbox" > Html
-   <br>
-   <input type="checkbox" > Css
-   <br>
-   <input type="checkbox" > Javascript
-   <br>
+
+        <br>
+
+        <!--Forms -->
+        <form action="process.php" method="POST" class="form-1">
+            <div class="form-group">
+                <label for="">First Name</label>
+                <input type="text" name="first-name" placeholder="Enter First Name">
+            </div>
+            <div class="form-group">
+                <label for="">Last Name</label>
+                <input type="text" name="last-name" placeholder="Enter Last Name">
+            </div>
+            <div class="form-group">
+                <label for="">Email</label>
+                <input type="email" name="email" placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+                <label for="">Password</label>
+                <input type="password" name="password" placeholder="Enter Password">
+            </div>
+            <div class="form-group">
+                <label for="">Message</label>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Type message here"></textarea>
+            </div>
+            <div>
+            <label for="">Gender</label>
+            <select name="gender" id="">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="mumu">Mumu</option>
+            </select>
+            </div>
+
+        <!--Radio-->
+        <br>
+        <p>Are you satisfied wiith the website?</p>
+        <div>
+        <input type="radio" name="radio" value="Radio">Yes
+        <br>
+        <input type="radio" name="radio" value="Radio">No
+        </div>
+
+        <!--Checkboxes-->
+        <br>
+        <p>Skills</p>
+        <input type="checkbox" > Html
+        <br>
+        <input type="checkbox" > Css
+        <br>
+        <input type="checkbox" > Javascript
+        <br>
 
 
-    <br>
-    <input type="submit" name="submit" value="Submit">
-   </form>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
 
-   <!--Buttons-->
-   <br>
-   <button>Click Me</button>
+        <!--Buttons-->
+        <br>
+    <div class="block">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa itaque qui maxime deleniti atque, fugit culpa, quia distinctio aut perspiciatis rerum blanditiis. Blanditiis accusantium dolor, cupiditate repellendus recusandae laboriosam facilis? lorem</p>
 
+    </div>
+
+    <div class="block">
+        <h4>More Information</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa itaque qui maxime deleniti atque, fugit culpa, quia distinctio aut perspiciatis rerum blanditiis. Blanditiis accusantium dolor, cupiditate repellendus recusandae laboriosam facilis? lorem</p>
+
+    </div>
+
+    <div class="block">
+        <h4>Contact Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa itaque qui maxime deleniti atque, fugit culpa, quia distinctio aut perspiciatis rerum blanditiis. Blanditiis accusantium dolor, cupiditate repellendus recusandae laboriosam facilis? lorem</p>
+
+    </div>
 
 </body>
 </html>
